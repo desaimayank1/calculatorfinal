@@ -1,0 +1,318 @@
+.calculator{
+
+    display: flex;
+    flex-direction: column;
+    width:40vw;
+    height: 80vh;
+    background-color: rgb(20, 17, 17);
+    margin-left: 25vw;
+    margin-top: 5vh;
+    box-shadow: 10px 10px rgb(121, 128, 131);
+    }
+    body{
+        background-color: rgb(194, 194, 169);
+    }
+    .screen{
+        width: 98%;
+        height: 20%;
+        background-color: rgb(142, 142, 184);
+        margin:1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        font-weight: 800;
+        box-shadow: 2px 2px rgb(97, 116, 122);
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        height: 70%;
+        margin: 1%;
+        margin-top: 5% ;
+        background-color: rgb(244, 241, 236);
+    }
+    .first{
+        display: flex;
+        justify-content: space-around;
+        width:98%;
+        height: 33.3%;
+        margin: 0.2%;
+        margin-top: 1%;
+        margin-left: 1%;
+        border: 2px bold rgb(228, 217, 217);
+        background-color: rgb(225, 212, 214);
+    }
+    .second{
+        display: flex;
+        justify-content: space-around;
+        width:98%;
+        height: 33.3%;
+        margin: 0.2%;
+        margin-left: 1%;
+        border: 2px bold black;
+        background-color: rgb(236, 225, 227);
+    }
+    .third{
+        display: flex;
+        justify-content: space-around;
+        width:98%;
+        height: 33.3%;
+        margin: 0.2%;
+        margin-left: 1%;
+        border: 2px bold black;
+        background-color: rgb(223, 203, 207);
+    }
+    .last{
+        
+            display: flex;
+            justify-content: space-around;
+            width:98%;
+            height: 33.3%;
+            margin: 0.2%;
+            margin-left: 1%;
+            border: 2px bold black;
+            background-color: rgb(223, 203, 207);
+        
+    }
+    /* .last{
+         display: flex;
+         justify-content: space-around;
+        width:98%;
+        height: 33.3%;
+        margin: 0.2%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+        border: 2px bold black;
+        background-color: rgb(219, 198, 202);
+    } */
+    .one{
+        width: 24.5%;
+    background-color: rgb(88, 76, 99);
+    border: 2px bold black;
+    font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .two{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .three{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sub{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .four{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .five{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .six{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seven{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .equal{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divide{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .zero{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .RS{
+        width: 24.5%;
+        /* background-color: rgb(82, 75, 88); */
+        background-color: red;
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .eight{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nine{
+        width: 24.5%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add{
+        width: 24.5%;
+        background-color:rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub{
+        width: 24.5%;
+        background-color:rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .multiply{
+        width: 24.5%;
+        background-color:rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .zero{
+        width: 33%;
+        background-color:rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divide{
+        width: 33%;
+        background-color:rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .equal{
+        width: 33%;
+        background-color: rgb(82, 75, 88);
+        border: 2px bold black;
+        font-size: xx-large;
+        font-weight: 800;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         */
+    /* } */
+    .try {
+        display:inline-block;
+        color:#444;
+        border:1px solid #CCC;
+        background:#DDD;
+        box-shadow: 0 0 5px -1px rgba(0,0,0,0.2);
+        cursor:pointer;
+        vertical-align:middle;
+        max-width: 100px;
+        padding: 5px;
+        text-align: center;
+    }
+    /* .restart{
+        height: 10vh;
+        width: 10vw;
+        background-color: red;
+        display: flex;
+    flex-direction: column;
+    
+    
+    margin-left: 25vw;
+    margin-top: 5vh;
+    
+    } */
